@@ -1,0 +1,2 @@
+# HookTool
+把ClassDump出来的头文件方法转换成CHDeclareClass CHMethod1 CHConstructor
