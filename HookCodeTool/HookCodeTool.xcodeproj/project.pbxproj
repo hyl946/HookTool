@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CBF70631FFCCE5C0056844C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF70621FFCCE5C0056844C /* AppDelegate.m */; };
+		5CBF70661FFCCE5D0056844C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF70651FFCCE5D0056844C /* ViewController.m */; };
+		5CBF70681FFCCE5D0056844C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBF70671FFCCE5D0056844C /* Assets.xcassets */; };
+		5CBF706B1FFCCE5D0056844C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CBF70691FFCCE5D0056844C /* Main.storyboard */; };
+		5CBF706E1FFCCE5D0056844C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF706D1FFCCE5D0056844C /* main.m */; };
+		5CBF70791FFCCE5D0056844C /* HookCodeToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF70781FFCCE5D0056844C /* HookCodeToolTests.m */; };
+		5CBF70841FFCCE5D0056844C /* HookCodeToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF70831FFCCE5D0056844C /* HookCodeToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CBF70751FFCCE5D0056844C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CBF70561FFCCE5C0056844C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CBF705D1FFCCE5C0056844C;
+			remoteInfo = HookCodeTool;
+		};
+		5CBF70801FFCCE5D0056844C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CBF70561FFCCE5C0056844C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CBF705D1FFCCE5C0056844C;
+			remoteInfo = HookCodeTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CBF705E1FFCCE5C0056844C /* HookCodeTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookCodeTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBF70611FFCCE5C0056844C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CBF70621FFCCE5C0056844C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CBF70641FFCCE5C0056844C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CBF70651FFCCE5D0056844C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CBF70671FFCCE5D0056844C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CBF706A1FFCCE5D0056844C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CBF706C1FFCCE5D0056844C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBF706D1FFCCE5D0056844C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CBF706F1FFCCE5D0056844C /* HookCodeTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HookCodeTool.entitlements; sourceTree = "<group>"; };
+		5CBF70741FFCCE5D0056844C /* HookCodeToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookCodeToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBF70781FFCCE5D0056844C /* HookCodeToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookCodeToolTests.m; sourceTree = "<group>"; };
+		5CBF707A1FFCCE5D0056844C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBF707F1FFCCE5D0056844C /* HookCodeToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookCodeToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBF70831FFCCE5D0056844C /* HookCodeToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookCodeToolUITests.m; sourceTree = "<group>"; };
+		5CBF70851FFCCE5D0056844C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CBF705B1FFCCE5C0056844C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBF70711FFCCE5D0056844C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBF707C1FFCCE5D0056844C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CBF70551FFCCE5C0056844C = {
+			isa = PBXGroup;
+			children = (
+				5CBF70601FFCCE5C0056844C /* HookCodeTool */,
+				5CBF70771FFCCE5D0056844C /* HookCodeToolTests */,
+				5CBF70821FFCCE5D0056844C /* HookCodeToolUITests */,
+				5CBF705F1FFCCE5C0056844C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CBF705F1FFCCE5C0056844C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CBF705E1FFCCE5C0056844C /* HookCodeTool.app */,
+				5CBF70741FFCCE5D0056844C /* HookCodeToolTests.xctest */,
+				5CBF707F1FFCCE5D0056844C /* HookCodeToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CBF70601FFCCE5C0056844C /* HookCodeTool */ = {
+			isa = PBXGroup;
+			children = (
+				5CBF70611FFCCE5C0056844C /* AppDelegate.h */,
+				5CBF70621FFCCE5C0056844C /* AppDelegate.m */,
+				5CBF70641FFCCE5C0056844C /* ViewController.h */,
+				5CBF70651FFCCE5D0056844C /* ViewController.m */,
+				5CBF70671FFCCE5D0056844C /* Assets.xcassets */,
+				5CBF70691FFCCE5D0056844C /* Main.storyboard */,
+				5CBF706C1FFCCE5D0056844C /* Info.plist */,
+				5CBF706D1FFCCE5D0056844C /* main.m */,
+				5CBF706F1FFCCE5D0056844C /* HookCodeTool.entitlements */,
+			);
+			path = HookCodeTool;
+			sourceTree = "<group>";
+		};
+		5CBF70771FFCCE5D0056844C /* HookCodeToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CBF70781FFCCE5D0056844C /* HookCodeToolTests.m */,
+				5CBF707A1FFCCE5D0056844C /* Info.plist */,
+			);
+			path = HookCodeToolTests;
+			sourceTree = "<group>";
+		};
+		5CBF70821FFCCE5D0056844C /* HookCodeToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CBF70831FFCCE5D0056844C /* HookCodeToolUITests.m */,
+				5CBF70851FFCCE5D0056844C /* Info.plist */,
+			);
+			path = HookCodeToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CBF705D1FFCCE5C0056844C /* HookCodeTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBF70881FFCCE5D0056844C /* Build configuration list for PBXNativeTarget "HookCodeTool" */;
+			buildPhases = (
+				5CBF705A1FFCCE5C0056844C /* Sources */,
+				5CBF705B1FFCCE5C0056844C /* Frameworks */,
+				5CBF705C1FFCCE5C0056844C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HookCodeTool;
+			productName = HookCodeTool;
+			productReference = 5CBF705E1FFCCE5C0056844C /* HookCodeTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CBF70731FFCCE5D0056844C /* HookCodeToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBF708B1FFCCE5D0056844C /* Build configuration list for PBXNativeTarget "HookCodeToolTests" */;
+			buildPhases = (
+				5CBF70701FFCCE5D0056844C /* Sources */,
+				5CBF70711FFCCE5D0056844C /* Frameworks */,
+				5CBF70721FFCCE5D0056844C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CBF70761FFCCE5D0056844C /* PBXTargetDependency */,
+			);
+			name = HookCodeToolTests;
+			productName = HookCodeToolTests;
+			productReference = 5CBF70741FFCCE5D0056844C /* HookCodeToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CBF707E1FFCCE5D0056844C /* HookCodeToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBF708E1FFCCE5D0056844C /* Build configuration list for PBXNativeTarget "HookCodeToolUITests" */;
+			buildPhases = (
+				5CBF707B1FFCCE5D0056844C /* Sources */,
+				5CBF707C1FFCCE5D0056844C /* Frameworks */,
+				5CBF707D1FFCCE5D0056844C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CBF70811FFCCE5D0056844C /* PBXTargetDependency */,
+			);
+			name = HookCodeToolUITests;
+			productName = HookCodeToolUITests;
+			productReference = 5CBF707F1FFCCE5D0056844C /* HookCodeToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CBF70561FFCCE5C0056844C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Loren;
+				TargetAttributes = {
+					5CBF705D1FFCCE5C0056844C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5CBF70731FFCCE5D0056844C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CBF705D1FFCCE5C0056844C;
+					};
+					5CBF707E1FFCCE5D0056844C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CBF705D1FFCCE5C0056844C;
+					};
+				};
+			};
+			buildConfigurationList = 5CBF70591FFCCE5C0056844C /* Build configuration list for PBXProject "HookCodeTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CBF70551FFCCE5C0056844C;
+			productRefGroup = 5CBF705F1FFCCE5C0056844C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CBF705D1FFCCE5C0056844C /* HookCodeTool */,
+				5CBF70731FFCCE5D0056844C /* HookCodeToolTests */,
+				5CBF707E1FFCCE5D0056844C /* HookCodeToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CBF705C1FFCCE5C0056844C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBF70681FFCCE5D0056844C /* Assets.xcassets in Resources */,
+				5CBF706B1FFCCE5D0056844C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBF70721FFCCE5D0056844C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBF707D1FFCCE5D0056844C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CBF705A1FFCCE5C0056844C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBF70661FFCCE5D0056844C /* ViewController.m in Sources */,
+				5CBF706E1FFCCE5D0056844C /* main.m in Sources */,
+				5CBF70631FFCCE5C0056844C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBF70701FFCCE5D0056844C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBF70791FFCCE5D0056844C /* HookCodeToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBF707B1FFCCE5D0056844C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBF70841FFCCE5D0056844C /* HookCodeToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CBF70761FFCCE5D0056844C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CBF705D1FFCCE5C0056844C /* HookCodeTool */;
+			targetProxy = 5CBF70751FFCCE5D0056844C /* PBXContainerItemProxy */;
+		};
+		5CBF70811FFCCE5D0056844C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CBF705D1FFCCE5C0056844C /* HookCodeTool */;
+			targetProxy = 5CBF70801FFCCE5D0056844C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CBF70691FFCCE5D0056844C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CBF706A1FFCCE5D0056844C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CBF70861FFCCE5D0056844C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CBF70871FFCCE5D0056844C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CBF70891FFCCE5D0056844C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HookCodeTool/HookCodeTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = HookCodeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Loren.BP.HookCodeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CBF708A1FFCCE5D0056844C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HookCodeTool/HookCodeTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = HookCodeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Loren.BP.HookCodeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CBF708C1FFCCE5D0056844C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = HookCodeToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Loren.BP.HookCodeToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HookCodeTool.app/Contents/MacOS/HookCodeTool";
+			};
+			name = Debug;
+		};
+		5CBF708D1FFCCE5D0056844C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = HookCodeToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Loren.BP.HookCodeToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HookCodeTool.app/Contents/MacOS/HookCodeTool";
+			};
+			name = Release;
+		};
+		5CBF708F1FFCCE5D0056844C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = HookCodeToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Loren.BP.HookCodeToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HookCodeTool;
+			};
+			name = Debug;
+		};
+		5CBF70901FFCCE5D0056844C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = HookCodeToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Loren.BP.HookCodeToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HookCodeTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CBF70591FFCCE5C0056844C /* Build configuration list for PBXProject "HookCodeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBF70861FFCCE5D0056844C /* Debug */,
+				5CBF70871FFCCE5D0056844C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBF70881FFCCE5D0056844C /* Build configuration list for PBXNativeTarget "HookCodeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBF70891FFCCE5D0056844C /* Debug */,
+				5CBF708A1FFCCE5D0056844C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBF708B1FFCCE5D0056844C /* Build configuration list for PBXNativeTarget "HookCodeToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBF708C1FFCCE5D0056844C /* Debug */,
+				5CBF708D1FFCCE5D0056844C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBF708E1FFCCE5D0056844C /* Build configuration list for PBXNativeTarget "HookCodeToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBF708F1FFCCE5D0056844C /* Debug */,
+				5CBF70901FFCCE5D0056844C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CBF70561FFCCE5C0056844C /* Project object */;
+}
