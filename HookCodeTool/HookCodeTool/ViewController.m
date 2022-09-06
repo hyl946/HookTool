@@ -91,7 +91,7 @@
     
     NSMutableString * chs = [NSMutableString string];
     
-    NSMutableString * cons = [NSMutableString stringWithFormat:@"CHConstructor{\n  CHLoadLateClass(%@);\n",classString];
+    NSMutableString * cons = [NSMutableString stringWithFormat:@"CHConstructor{\n\tCHLoadLateClass(%@);\n",classString];
 
     for (int n = 0 ; n<dataSource.count; n++) {
         NSDictionary * data = [dataSource objectAtIndex:n];
@@ -102,7 +102,7 @@
         
         NSMutableString * tchs = [NSMutableString stringWithFormat:@"CH%@Method%ld(%@,%@",isClass?@"Class":@"",count,[self replace:returnstring],classString];;
         NSMutableString * sus = [NSMutableString stringWithFormat:@"%@CHSuper%ld(%@",![returnstring isEqualToString:@"void"]?[NSString stringWithFormat:@"%@ i = ",[self replace:returnstring]]:@"",count,classString];
-        NSMutableString * tempCons = [NSMutableString stringWithString:[NSString stringWithFormat:@"  CH%@Hook%ld(%@",isClass?@"Class":@"",count,classString]];
+        NSMutableString * tempCons = [NSMutableString stringWithString:[NSString stringWithFormat:@"\tCH%@Hook%ld(%@",isClass?@"Class":@"",count,classString]];
         for (int a=0; a<ma.count; a++) {
             NSString * s = ma[a];
             [tchs appendString:@", "];
@@ -124,9 +124,9 @@
         }
         [sus appendString:@");"];
         if (![returnstring isEqualToString:@"void"]) {
-            [sus appendString:@"\n return i;\n"];
+            [sus appendString:@"\n\treturn i;"];
         }
-        [tchs appendString:@"){\n  "];
+        [tchs appendString:@"){\n\t"];
         [tchs appendString:sus];
         [tchs appendString:@"\n}\n"];
         [tempCons appendString:@");"];
@@ -134,7 +134,7 @@
         [cons appendString:@"\n"];
         [chs appendString:tchs];
     }
-    [cons appendString:@"\n}"];
+    [cons appendString:@"}"];
     
     NSLog(@"%@",dec);
     NSLog(@"%@",chs);
